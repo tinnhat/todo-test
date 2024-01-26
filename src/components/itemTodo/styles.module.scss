@@ -1,0 +1,49 @@
+.todoItem {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.deleteBtn,
+.editBtn {
+  margin-left: 10px;
+}
+
+.actionBox {
+  margin-left: auto;
+}
+
+.completeTodo {
+  color: green;
+}
+.completeCheckbox {
+  cursor: pointer;
+}
+
+.completeCheckbox:checked {
+  background-color: green;
+  border-color: green;
+}
+.completeCheckbox:focus {
+  border-color: green;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(150, 243, 150);
+}
+.formCheck {
+  text-align: left;
+  width: 500px;
+}
+.labelTodo {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 578px) {
+  .formCheck {
+    width: 400px;
+  }
+}
