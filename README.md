@@ -19,3 +19,6 @@ Run in local.
 npm install
 npm run dev
 ```
+> [!NOTE]  
+> This project using latest version of NextJS. Please install Node.js 18.17 or later.
+> https://nextjs.org/docs/getting-started/installation
