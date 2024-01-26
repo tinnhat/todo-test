@@ -1,6 +1,6 @@
 # Todo App
 # Deploy
-- [https://todo-test-chi-rust.vercel.app/(https://todo-test-chi-rust.vercel.app/)](https://todo-test-chi-rust.vercel.app/)
+- [https://todo-test-chi-rust.vercel.app](https://todo-test-chi-rust.vercel.app/)
 ## Reference UI: 
 - [https://getbootstrap.com/](https://getbootstrap.com/)
 - [https://react-bootstrap.netlify.app/](https://react-bootstrap.netlify.app/)
