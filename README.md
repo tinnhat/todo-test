@@ -1,5 +1,5 @@
 # Todo App
-# Deloy
+# Deploy
 - [[https://barter-ts.vercel.app/](https://todo-test-chi-rust.vercel.app/)](https://todo-test-chi-rust.vercel.app/)
 ## Reference UI: 
 - [https://getbootstrap.com/](https://getbootstrap.com/)
@@ -12,6 +12,7 @@
 + Create new task
 + Update task to complete
 + Delete task
++ Support Responsive
 ## Usage
 Run in local.
 ```bash
