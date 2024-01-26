@@ -54,8 +54,7 @@ export default function Todo({}: Props) {
         </div>
       </div>
       <ul className={styles.listTodo}>
-        {listTodo &&
-          listTodo.map(todo => (
+        {listTodo && listTodo.map(todo => (
             <ItemTodo
               handleUpdateComplete={handleUpdateComplete}
               handleDelete={handleDelete}

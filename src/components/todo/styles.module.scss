@@ -2,7 +2,8 @@
   text-align: center;
   max-width: 500px;
 }
-.input{
+
+.input {
   max-width: 500px;
 }
 .addBox {
@@ -29,7 +30,6 @@
   padding: 10px;
   height: 400px;
   overflow-y: auto;
-
 }
 
 @media screen and (max-width: 768px) {
@@ -37,17 +37,21 @@
     width: 80vw;
   }
 }
+
 @media screen and (max-width: 578px) {
   .todo {
     width: 90vw;
   }
+
   .addBox {
     flex-direction: column;
     width: 90vw;
   }
+
   .btnBox {
     margin-top: 6px;
   }
+
   .btnCus {
     width: 100%;
     display: flex;
@@ -55,6 +59,7 @@
     justify-content: center;
     margin-left: 0;
   }
+  
   .btnCusCancel {
     margin-left: 10px;
   }

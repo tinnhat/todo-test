@@ -7,7 +7,6 @@ type Props = {
   todo: ITodo
   handleUpdateComplete: (value: ITodo) => void
   handleDelete: (value: ITodo) => void
-
 }
 
 export default function ItemTodo({ todo, handleUpdateComplete, handleDelete }: Props) {
